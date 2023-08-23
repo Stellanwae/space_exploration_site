@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	color: white;
+	padding: 0;
+	font-family: 'Orbitron', sans-serif;
+	
+}
+
+#hero {
+	background-image: url("https://media4.giphy.com/media/iicDrNGWxHmDrIni6j/200w.webp?cid=ecf05e47u07dbui9te7heuc65znrbcs39kdrc6zp722jjww4&ep=v1_gifs_search&rid=200w.webp&ct=g");
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	width: 100%;
+	margin-top: 0px;
+	height: 500px;
+	text-align: center;
+}
+
+img {
+	width: 60px;
+	margin-top: 20px;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding-top: 60px;
+	text-shadow: 0 0 5px black;
+	color: #495194;
+}
+
+@font-face {
+	src: url('lovers-quarrel.ttf');
+	font-family: lquarrel;
+}
+
+button {
+	margin-bottom: 30px;
+	padding: 6px 12px;
+	border: none;
+	font-family: inherit;
+	font-weight: 800;
+	color: #495194;
+}
+
+h3 {
+	color: black;
+	font-family: lquarrel;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+}
